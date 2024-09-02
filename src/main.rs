@@ -14,9 +14,9 @@ fn App() -> Html {
 
     html! {
         <div>
-            <button {onclick} >{"+1"}</button>
+            <button  {onclick} >{"+1"}</button>
             <p>{*counter}</p>
-            //<p class=classes!("bg-red-100")>{"Test!"}</p>
+            <p class="bg-red-100">{"Test!"}</p>
         </div>
     }
 }
