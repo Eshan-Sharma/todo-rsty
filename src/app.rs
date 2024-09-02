@@ -49,7 +49,7 @@ pub fn app() -> Html {
                         {"Add Todo"}
                     </button>
                 </div>
-                <div class="max-h-32 min-h-24 overflow-y-scroll scroll-smooth">
+                <div class="max-h-32 min-h-24 overflow-y-scroll todos">
                     <Todos todos={(*todos).clone()} />
                 </div>
             </div>
